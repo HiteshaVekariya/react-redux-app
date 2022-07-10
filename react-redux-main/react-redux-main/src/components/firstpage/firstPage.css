@@ -1,0 +1,145 @@
+.main {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first {
+  position: relative;
+  background: white;
+}
+.title {
+  text-align: center;
+  width: 55%;
+  padding: 8px 0;
+}
+h1 {
+  font-size: 18px;
+  margin-bottom: 3px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+p {
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0 3px;
+  margin-bottom: 7px;
+  color: #5e5c5c;
+  font-family: "Gilroy-Light", sans-serif;
+}
+.firstitems {
+  text-align: center;
+
+  width: 90%;
+  margin-bottom: 7px;
+}
+ .firstitems .button {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Gilroy", sans-serif;
+}
+
+.home {
+  width: 90%;
+  display: flex;
+  overflow-x: scroll;
+
+  /* mouse-wheel: vertical; */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+ .underline {
+  font-size: 14px;
+  text-transform: capitalize;
+  letter-spacing: 0.3px;
+  font-family: "Gilroy", sans-serif;
+}
+
+.test {
+  height: calc (95vh- (150px + 90px));
+  padding: 10px 20px;
+}
+@media only screen and (max-width: 500px) {
+  .test {
+    height: calc(100vh - (150px+90px));
+  }
+}
+.homeproductlist {
+  height: calc(95vh - 150px);
+}
+@media only screen and (max-width: 500px) {
+  .homeproductlist {
+    height: calc(100vh - 150px);
+  }
+}
+.test {
+  padding: 2px 20px;
+
+  height: 60vh;
+}
+.product {
+  border: 2.2px solid #ffd504;
+  border-radius: 8px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.pdesc {
+  width: 75%;
+}
+.pdesc h1 {
+  font-size: 14px;
+}
+.productlist h1 {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+.productlist p {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Gilroy-Light", sans-serif;
+}
+.pprice {
+  width: 15%;
+  text-align: right;
+  font-size: 25px;
+  font-weight: 800;
+  margin-right: 18px;
+}
+
+.bottom {
+  background-color: #ffd504;
+  height: 61px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.bottom h1 {
+  text-align: center;
+  font-size: 20px;
+}
+.lang-btn {
+  position: absolute;
+  height: 40px;
+  right: 12px;
+  top: 12px;
+  background: white;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.lang-btn img {
+  width: 33px;
+  height: 33px;
+  margin-bottom: 2px;
+}

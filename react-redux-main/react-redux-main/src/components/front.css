@@ -1,0 +1,31 @@
+.page {
+  background: #f4f4f5;
+  width: 380px;
+  height: 95vh;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+  .page {
+    border-radius: 0;
+    height: 100vh;
+    box-sizing: unset;
+    width: 100vw;
+  }
+}
+.lang-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 24px;
+  background: white;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.lang-btn img {
+  width: 20px;
+  height: 20px;
+}

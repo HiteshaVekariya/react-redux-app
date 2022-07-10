@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background: #f3ecec;
+  font-family: "Gilroy", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy"), url(../src/font/Gilroy-ExtraBold.otf) format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: local("Gilroy"), url(../src/font/Gilroy-Light.otf) format("truetype");
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.button {
+  padding: 8px 16px;
+  border-radius: 10px;
+  background: none;
+  border: 2.2px solid #ffd504;
+  margin: 0px 5px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  font-family: "Gilroy", sans-serif;
+}
+.button.active {
+  background: #ffd504;
+}
+.underline {
+  padding: 4px 0px;
+  margin: 0px 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+  border-bottom: 2.2px solid transparent;
+}
+.underline.active {
+  border-bottom: 2.2px solid #ffd504;
+}
+.hashmain {
+  background: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  margin: 0 10px;
+}
